@@ -4,7 +4,8 @@
   "description": "Full Stack Open",
   "main": "src/index.js",
   "jest": {
-    "verbose": true
+    "verbose": true,
+    "testEnvironment": "jsdom"
   },
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --open --mode development",
