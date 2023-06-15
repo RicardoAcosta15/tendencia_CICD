@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Full Stack Open",
   "main": "src/index.js",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --open --mode development",
     "start-prod": "node app.js",
@@ -21,9 +24,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/smartlyio/fullstackopen-cicd/issues"
-  },
-  "jest":{
-    "testEnvironment": "jsdom"
   },
   "homepage": "https://github.com/smartlyio/fullstackopen-cicd#readme",
   "devDependencies": {
