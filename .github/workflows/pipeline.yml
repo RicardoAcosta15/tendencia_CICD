@@ -16,9 +16,12 @@ jobs:
         with:
           node-version: 18
       - name: Instalar dependencias
-        run: npm install
+        run: npm install --no-audit --no-fund --no-optional
       - run: npx eslint --fix app.js 
       - name: Lint
         run: npm run eslint
-      
+      - name: Build
+        run: npm run build
+      - name: Test
+        run: npm test
 
