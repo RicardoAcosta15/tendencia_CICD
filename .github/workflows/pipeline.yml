@@ -19,4 +19,5 @@ jobs:
         run: npm install
       - name: Lint
         run: npm run eslint
+      - run: npx eslint --fix app.js 
 
