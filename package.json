@@ -4,11 +4,11 @@
   "description": "Full Stack Open",
   "main": "src/index.js",
   "scripts": {
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --open --mode development",
     "start-prod": "node app.js",
     "test": "jest",
-    "eslint": "eslint './**/*.{js,jsx}'"
+    "eslint": "eslint './**/*.{js,jsx}'",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && webpack --mode production"
   },
   "repository": {
     "type": "git",
