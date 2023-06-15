@@ -1,3 +1,5 @@
+[![Deployment Pipeline](https://github.com/RicardoAcosta15/tendencia_CICD/actions/workflows/pipeline.yml/badge.svg)](https://github.com/RicardoAcosta15/tendencia_CICD/actions/workflows/pipeline.yml)
+
 # tendencia_CICD
 
 Repo para la tarea de tendencias de CI/CD
